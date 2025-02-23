@@ -1,0 +1,127 @@
+/* Updated CSS to match the modified HTML structure */
+
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #121212;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+/* Sidebar */
+.sidebar {
+    background: #1e1e1e;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: center;
+    background: #252525;
+    padding: 10px 0;
+    border-radius: 10px;
+}
+
+.navbar-link {
+    color: black;
+    padding: 10px 15px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.navbar-link.active {
+    color: #f4b400;
+}
+
+/* Main Content */
+.main-content {
+    padding: 20px;
+}
+
+/* Sections */
+article {
+    display: none;
+    background: #1e1e1e;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+article.active {
+    display: block;
+}
+
+/* Headings */
+h2 {
+    color: #5d1bba;
+}
+
+/* Timeline */
+.timeline-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+.timeline-item {
+    margin-bottom: 15px;
+}
+
+.timeline-item-title {
+    font-weight: bold;
+    color: #f4b400;
+}
+
+/* Certification Section */
+.certification a {
+    color: #f4b400;
+    text-decoration: none;
+}
+
+.certification a:hover {
+    text-decoration: underline;
+}
+
+/* Projects Section */
+.projects ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.projects li {
+    margin-bottom: 15px;
+}
+
+.projects h4 {
+    color: #f4b400;
+}
+
+/* Contact Section */
+.contact ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.contact li {
+    margin-bottom: 10px;
+}
+
+.contact a {
+    color: #f4b400;
+    text-decoration: none;
+}
+
+.contact a:hover {
+    text-decoration: underline;
+}
+
+.profile-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 30vh;
+    /* Adjust as necessary */
+}
